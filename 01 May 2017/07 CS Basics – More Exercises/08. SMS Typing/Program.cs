@@ -11,27 +11,33 @@ namespace _08.SMS_Typing
         static void Main(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
-            int num;
+            string SMS = string.Empty;
 
-            for (int i = 0; i < n; i++)
+            for (int i = 1; i <= n; i++)
             {
-                num = int.Parse(Console.ReadLine());
+                int num = int.Parse(Console.ReadLine());
 
-                var numOfDigits = num.ToString().Length;
-                var mainDigit = num.ToString()[0];
-                var offset = (mainDigit - 2) * 3;
+                if (num == 0)
+                    SMS += ' ';
 
-                if (mainDigit == 7 || mainDigit == 9)
+                else
                 {
-                    offset++;
-                }
+                    int numOfDigits = num.ToString().Length;
+                    int mainDigit = num % 10;
+                    int offset = (mainDigit - 2) * 3;
 
-                var letterIndex = offset + numOfDigits - 1;
-                var code = letterIndex + 97;
-                Console.WriteLine("{0} {1}", numOfDigits, mainDigit);
-                Console.WriteLine((char)code);
+                    if (mainDigit == 8 || mainDigit == 9)
+                    {
+                        offset++;
+                    }
+
+                    int letterIndex = offset + numOfDigits - 1;
+                    int code = letterIndex + 97;
+
+                    SMS += (char)code;
+                }
             }
+            Console.WriteLine(SMS);
         }
     }
 }
-// Not Finished

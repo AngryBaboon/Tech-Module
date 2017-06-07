@@ -22,14 +22,13 @@ namespace _07.Training_Hall_Equipment
                     Console.WriteLine($"Adding {count} {name}s to cart.");
                 else
                     Console.WriteLine($"Adding {count} {name} to cart.");
-                sub += price*count;
+                sub += price * count;
             }
             Console.WriteLine($"Subtotal: ${sub:F2}");
-
             if (budget - sub > 0)
                 Console.WriteLine($"Money left: ${budget - sub:F2}");
             else
-                Console.WriteLine($"Not enough. We need ${Math.Abs(budget-sub):F2} more.");
+                Console.WriteLine($"Not enough. We need ${Math.Abs(budget - sub):F2} more.");
         }
     }
 }

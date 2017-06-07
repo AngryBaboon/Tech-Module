@@ -12,11 +12,11 @@ namespace _01.X
         {
             var n = int.Parse(Console.ReadLine());
 
-            for (int i = 0; i <= n/2-1; i++)
+            for (int i = 0; i <= n / 2 - 1; i++)
             {
-                string space = new string(' ', n - 2 - i*2);
+                string space = new string(' ', n - 2 - i * 2);
                 string space2 = new string(' ', i);
-                Console.WriteLine(space2 + 'x'+ space + 'x');
+                Console.WriteLine(space2 + 'x' + space + 'x');
             }
 
             string space3 = new string(' ', n / 2);
@@ -24,7 +24,7 @@ namespace _01.X
 
             for (int i = 0; i <= n / 2 - 1; i++)
             {
-                string space = new string(' ', 1 + i*2);
+                string space = new string(' ', 1 + i * 2);
                 string space2 = new string(' ', n / 2 - i - 1);
                 Console.WriteLine(space2 + 'x' + space + 'x');
             }

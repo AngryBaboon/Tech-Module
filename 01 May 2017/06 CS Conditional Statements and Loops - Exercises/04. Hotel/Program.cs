@@ -51,7 +51,7 @@ namespace _04.Hotel
                 if (nights > 14)
                     Console.WriteLine("Suite: {0:F2} lv.", 89 * nights * 0.85);
                 else
-                Console.WriteLine("Suite: {0:F2} lv.", 89 * nights);
+                    Console.WriteLine("Suite: {0:F2} lv.", 89 * nights);
             }
         }
     }

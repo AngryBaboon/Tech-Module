@@ -25,12 +25,12 @@ namespace _04.Photo_Gallery
             if (year < 1000)
                 Console.WriteLine($"Date Taken: {day:D2}/{month:D2}/20{year:D2} {hour:D2}:{min:D2}");
             else
-            Console.WriteLine($"Date Taken: {day:D2}/{month:D2}/{year:D4} {hour:D2}:{min:D2}");
+                Console.WriteLine($"Date Taken: {day:D2}/{month:D2}/{year:D4} {hour:D2}:{min:D2}");
 
             if (size < 1000)
                 Console.WriteLine($"Size: {size}B");
             else if (size > 100000 && size < 1000000)
-                Console.WriteLine($"Size: {size/1000}KB");
+                Console.WriteLine($"Size: {size / 1000}KB");
             else if (size > 1000000)
                 Console.WriteLine($"Size: {size / 1000000}MB");
 
