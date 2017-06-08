@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Sum of Chars", "10. Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. String Concatenation", "11. String Concatenation\11. String Concatenation.csproj", "{A3765190-E869-4FB0-971A-EF28849214FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Sentence the Thief", "07. Sentence the Thief\07. Sentence the Thief.csproj", "{257AF7D0-D50E-44BE-8647-AF8E899EEE71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. House Builder", "08. House Builder\08. House Builder.csproj", "{308E2F78-C9FD-407E-8CCB-46297CD4B422}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{A3765190-E869-4FB0-971A-EF28849214FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3765190-E869-4FB0-971A-EF28849214FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3765190-E869-4FB0-971A-EF28849214FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257AF7D0-D50E-44BE-8647-AF8E899EEE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257AF7D0-D50E-44BE-8647-AF8E899EEE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257AF7D0-D50E-44BE-8647-AF8E899EEE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257AF7D0-D50E-44BE-8647-AF8E899EEE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{308E2F78-C9FD-407E-8CCB-46297CD4B422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308E2F78-C9FD-407E-8CCB-46297CD4B422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308E2F78-C9FD-407E-8CCB-46297CD4B422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308E2F78-C9FD-407E-8CCB-46297CD4B422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
