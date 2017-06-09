@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hello Name", "01. Hello Name\01. Hello Name.csproj", "{58D3D7E8-6E4D-405F-9A5A-3E2560092205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Max Method", "02. Max Method\02. Max Method.csproj", "{02E806E2-25C8-4278-88D2-85C092D4D27E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. English Name of Last Digit", "03. English Name of Last Digit\03. English Name of Last Digit.csproj", "{16A2085F-A3DF-4136-8CCB-62F1E18DC5D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Numbers in Reversed Order", "04. Numbers in Reversed Order\04. Numbers in Reversed Order.csproj", "{607CF3FF-86F6-4E1A-B924-DAE0AFFCAF7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Prime Checker", "06. Prime Checker\06. Prime Checker.csproj", "{AB864648-F793-4F16-A5FE-61761394BB55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Primes in Given Range", "07. Primes in Given Range\07. Primes in Given Range.csproj", "{843ED18B-F851-420A-A009-49F9A4066B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58D3D7E8-6E4D-405F-9A5A-3E2560092205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58D3D7E8-6E4D-405F-9A5A-3E2560092205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58D3D7E8-6E4D-405F-9A5A-3E2560092205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58D3D7E8-6E4D-405F-9A5A-3E2560092205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E806E2-25C8-4278-88D2-85C092D4D27E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E806E2-25C8-4278-88D2-85C092D4D27E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E806E2-25C8-4278-88D2-85C092D4D27E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E806E2-25C8-4278-88D2-85C092D4D27E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A2085F-A3DF-4136-8CCB-62F1E18DC5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A2085F-A3DF-4136-8CCB-62F1E18DC5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A2085F-A3DF-4136-8CCB-62F1E18DC5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A2085F-A3DF-4136-8CCB-62F1E18DC5D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{607CF3FF-86F6-4E1A-B924-DAE0AFFCAF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{607CF3FF-86F6-4E1A-B924-DAE0AFFCAF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{607CF3FF-86F6-4E1A-B924-DAE0AFFCAF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{607CF3FF-86F6-4E1A-B924-DAE0AFFCAF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB864648-F793-4F16-A5FE-61761394BB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB864648-F793-4F16-A5FE-61761394BB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB864648-F793-4F16-A5FE-61761394BB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB864648-F793-4F16-A5FE-61761394BB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843ED18B-F851-420A-A009-49F9A4066B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843ED18B-F851-420A-A009-49F9A4066B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843ED18B-F851-420A-A009-49F9A4066B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843ED18B-F851-420A-A009-49F9A4066B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
